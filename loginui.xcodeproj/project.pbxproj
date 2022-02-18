@@ -14,6 +14,8 @@
 		FAA71DB827BCED8E001CD85C /* loginuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71DB727BCED8E001CD85C /* loginuiTests.swift */; };
 		FAA71DC227BCED8E001CD85C /* loginuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71DC127BCED8E001CD85C /* loginuiUITests.swift */; };
 		FAA71DC427BCED8E001CD85C /* loginuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71DC327BCED8E001CD85C /* loginuiUITestsLaunchTests.swift */; };
+		FAE1978A27BF8E2D004B1525 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1978927BF8E2D004B1525 /* WelcomeScreenView.swift */; };
+		FAE1978C27BF99A7004B1525 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1978B27BF99A7004B1525 /* SignInScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FAA71DBD27BCED8E001CD85C /* loginuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA71DC127BCED8E001CD85C /* loginuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginuiUITests.swift; sourceTree = "<group>"; };
 		FAA71DC327BCED8E001CD85C /* loginuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAE1978927BF8E2D004B1525 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		FAE1978B27BF99A7004B1525 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		FAA71DA527BCED8D001CD85C /* loginui */ = {
 			isa = PBXGroup;
 			children = (
+				FAE1978827BF8DF0004B1525 /* Screens */,
 				FAA71DA627BCED8D001CD85C /* loginuiApp.swift */,
 				FAA71DA827BCED8D001CD85C /* ContentView.swift */,
 				FAA71DAA27BCED8E001CD85C /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				FAA71DC327BCED8E001CD85C /* loginuiUITestsLaunchTests.swift */,
 			);
 			path = loginuiUITests;
+			sourceTree = "<group>";
+		};
+		FAE1978827BF8DF0004B1525 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1978927BF8E2D004B1525 /* WelcomeScreenView.swift */,
+				FAE1978B27BF99A7004B1525 /* SignInScreenView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE1978C27BF99A7004B1525 /* SignInScreenView.swift in Sources */,
+				FAE1978A27BF8E2D004B1525 /* WelcomeScreenView.swift in Sources */,
 				FAA71DA927BCED8D001CD85C /* ContentView.swift in Sources */,
 				FAA71DA727BCED8D001CD85C /* loginuiApp.swift in Sources */,
 			);
