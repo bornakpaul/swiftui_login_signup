@@ -10,7 +10,6 @@ import SwiftUI
 struct SignInScreenView: View {
     @State private var email: String = "" // by default its empty
     var body: some View {
-        NavigationView {
             ZStack {
                 Color(.white).ignoresSafeArea(.all)
                 VStack {
@@ -60,8 +59,8 @@ struct SignInScreenView: View {
                 
             }
         }
+    
     }
-}
 
 
 struct SignInScreenView_Previews: PreviewProvider {
